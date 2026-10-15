@@ -1,9 +1,25 @@
-﻿{
-  "cta": "━━━━━━━━━━━━━━━━━━━━\n📌 Apply using the official link above! Follow the channel so you never miss a vacancy.\n📌 ከላይ ያለውን ይፋዊ የመመዝገቢያ ሊንክ በመጠቀም ያመልክቱ! አዳዲስ የስራ ማስታወቂያዎች እንዳያመልጥዎ ቻናላችንን ይከተሉ።\n📌 Liinkii galmee isa sirrii armaan olii fayyadamuun iyyadhaa! Odeeffannoo hojii haaraa argachuuf chaanaalii keenya hordofaa.\n\n📲 **Connect with us / ይከተሉን:**\n💼 [LinkedIn](https://www.linkedin.com/in/dani3430) | ▶️ [YouTube](https://youtube.com/@danieltemesgen581)\n👥 [Facebook](https://facebook.com/daniel.temesgen.102) | ✈️ [Telegram Channel](https://t.me/newVacancyPromoter)",
+{
+  "cta": "━━━━━━━━━━━━━━━━━━━━\n📌 Apply using the official link above! Follow the channel so you never miss a vacancy.\n📌 ከላይ ያለውን ይፋዊ የመመዝገቢያ ሊንክ በመጠቀም ያመልክቱ! አዳዲስ የስራ ማስታወቂያዎች እንዳያመልጥዎ ቻናላችንን ይከተሉ።\n📌 Liinkii galmee isa sirrii armaan olii fayyadamuun iyyadhaa! Odeeffannoo hojii haaraa argachuuf chaanaalii keenya hordofaa.\n\n📲 **Connect with us / ይከተሉን:**\n💼 [LinkedIn](https://www.linkedin.com/in/dani3430) | ▶️ [YouTube](https://youtube.com/@danieltemesgen581)\n👥 [Facebook](https://facebook.com/daniel.temesgen.102) | ✈️ [Telegram Channel](https://t.me/newVacancyPromoter)\n?? [Website](https://daniel-temesgen.netlify.app/)",
   "social_links": [
-    {"label": "💼 LinkedIn", "url": "https://www.linkedin.com/in/dani3430"},
-    {"label": "▶️ YouTube", "url": "https://youtube.com/@danieltemesgen581"},
-    {"label": "👥 Facebook", "url": "https://facebook.com/daniel.temesgen.102"},
-    {"label": "✈️ Telegram", "url": "https://t.me/newVacancyPromoter"}
+    {
+      "label": "💼 LinkedIn",
+      "url": "https://www.linkedin.com/in/dani3430"
+    },
+    {
+      "label": "▶️ YouTube",
+      "url": "https://youtube.com/@danieltemesgen581"
+    },
+    {
+      "label": "👥 Facebook",
+      "url": "https://facebook.com/daniel.temesgen.102"
+    },
+    {
+      "label": "✈️ Telegram",
+      "url": "https://t.me/newVacancyPromoter"
+    },
+    {
+      "label": "?? Website",
+      "url": "https://daniel-temesgen.netlify.app/"
+    }
   ]
 }
