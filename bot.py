@@ -25,6 +25,8 @@ SESSION_STRING = os.environ["SESSION_STRING"]          # reader account
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()          # optional poster bot (enables buttons)
 TARGET_CHANNEL = os.environ["TARGET_CHANNEL"]
 SOURCES = [s.strip() for s in os.environ["SOURCE_CHANNELS"].split(",") if s.strip()]
+if not SOURCES:
+    sys.exit("ERROR: SOURCE_CHANNELS is empty - add that secret in GitHub Settings > Secrets and variables > Actions")
 
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "10"))
 INITIAL_BACKFILL = int(os.getenv("INITIAL_BACKFILL", "0"))   # posts to publish on first sight of a source

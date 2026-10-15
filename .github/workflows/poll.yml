@@ -1,4 +1,4 @@
-﻿name: Relay vacancies
+name: Relay vacancies
 
 on:
   schedule:
@@ -40,11 +40,14 @@ jobs:
         run: |
           git config user.name "vacancy-bot"
           git config user.email "vacancy-bot@users.noreply.github.com"
+          if [ -f state.json ]; then cp state.json /tmp/state.json; fi
+          git fetch origin main
+          git reset --hard origin/main
+          if [ -f /tmp/state.json ]; then cp /tmp/state.json state.json; fi
           git add state.json
           if git diff --cached --quiet; then
             echo "No state change"
           else
             git commit -m "update state [skip ci]"
-            git pull --rebase -q
-            git push
+            git push origin HEAD:main
           fi
