@@ -1,4 +1,4 @@
-﻿"""Pure text-cleaning logic (no Telegram imports, so it is easy to test)."""
+"""Pure text-cleaning logic (no Telegram imports, so it is easy to test)."""
 import re
 
 SOCIAL_DOMAINS = (
@@ -61,12 +61,18 @@ def clean_text(text: str):
     return text, list(dict.fromkeys(apply_links))
 
 
-def build_message(text: str, cta: str) -> str:
+def build_message(text: str, cta: str, header: str = "", apply_title: str = "", link_label: str = "") -> str:
     cleaned, links = clean_text(text)
-    parts = [cleaned] if cleaned else []
+    parts = []
+    if header:
+        parts.append(header.strip())
+    if cleaned:
+        parts.append(cleaned)
     if links:
-        lines = [f"👉 [Apply / ለመመዝገብ / Iyyadhaa]({link})" for link in links]
-        parts.append("📝 **Application link(s):**\n" + "\n".join(lines))
+        title = apply_title or "**Application link(s):**"
+        label = link_label or "Apply"
+        lines = [f"[{label}]({link})" for link in links]
+        parts.append(title + "\n" + "\n".join(lines))
     if cta:
         parts.append(cta.strip())
     return "\n\n".join(parts)

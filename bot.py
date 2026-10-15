@@ -40,6 +40,10 @@ STATE_FILE = Path(os.getenv("STATE_FILE", "state.json"))
 CONFIG = json.loads(Path("config.json").read_text(encoding="utf-8-sig"))
 CTA = CONFIG.get("cta", "")
 LINKS = CONFIG.get("social_links", [])  # [{"label": "...", "url": "..."}]
+HEADER = CONFIG.get("header", "")
+APPLY_TITLE = CONFIG.get("apply_title", "")
+LINK_LABEL = CONFIG.get("link_label", "Apply")
+APPLY_BUTTON = CONFIG.get("apply_button", "Apply Now")
 
 
 def log(msg):
@@ -63,8 +67,12 @@ def norm_source(s: str) -> str:
 
 
 # ---------- sending ----------
-def make_buttons():
-    rows, row = [], []
+def make_buttons(apply_links=()):
+    rows = []
+    for link in list(apply_links)[:2]:
+        if link.startswith("http") and len(link) < 500:
+            rows.append([Button.url(APPLY_BUTTON, link)])
+    row = []
     for item in LINKS:
         row.append(Button.url(item["label"], item["url"]))
         if len(row) == 2:
@@ -101,8 +109,8 @@ async def safe_send_message(poster, text, buttons):
                                         buttons=buttons, link_preview=False))
 
 
-async def publish(poster, can_button, paths, text):
-    buttons = make_buttons() if can_button else None
+async def publish(poster, can_button, paths, text, apply_links=()):
+    buttons = make_buttons(apply_links) if can_button else None
     if not paths:
         chunks = split_text(text)
         for i, chunk in enumerate(chunks):
@@ -231,11 +239,11 @@ async def main():
                     state["last_ids"][key] = newest_id
                     continue
 
-                final_text = build_message(text, CTA)
+                final_text = build_message(text, CTA, HEADER, APPLY_TITLE, LINK_LABEL)
                 try:
                     with tempfile.TemporaryDirectory() as tmp:
                         paths = await download_media(reader, post, tmp)
-                        await publish(poster, can_button, paths, final_text)
+                        await publish(poster, can_button, paths, final_text, clean_text(text)[1])
                     state["hashes"].append(fp)
                     posted += 1
                     log(f"  posted {key}/{newest_id}")

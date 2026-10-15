@@ -1,25 +1,14 @@
-{
-  "cta": "━━━━━━━━━━━━━━━━━━━━\n📌 Apply using the official link above! Follow the channel so you never miss a vacancy.\n📌 ከላይ ያለውን ይፋዊ የመመዝገቢያ ሊንክ በመጠቀም ያመልክቱ! አዳዲስ የስራ ማስታወቂያዎች እንዳያመልጥዎ ቻናላችንን ይከተሉ።\n📌 Liinkii galmee isa sirrii armaan olii fayyadamuun iyyadhaa! Odeeffannoo hojii haaraa argachuuf chaanaalii keenya hordofaa.\n\n📲 **Connect with us / ይከተሉን:**\n💼 [LinkedIn](https://www.linkedin.com/in/dani3430) | ▶️ [YouTube](https://youtube.com/@danieltemesgen581)\n👥 [Facebook](https://facebook.com/daniel.temesgen.102) | ✈️ [Telegram Channel](https://t.me/newVacancyPromoter)\n?? [Website](https://daniel-temesgen.netlify.app/)",
+﻿{
+  "header": "🔥 **NEW VACANCY · አዲስ የስራ ማስታወቂያ · Hojii Haaraa**",
+  "apply_title": "📝 **How to apply · እንዴት ማመልከት · Akkaataa iyyannoo**",
+  "link_label": "Apply Now · አሁን ያመልክቱ",
+  "apply_button": "📝 Apply Now · አሁን ያመልክቱ",
+  "cta": "━━━━━━━━━━━━━━━━━━━━\n✅ Apply only through the official link above.\n✅ በላይ ባለው ይፋዊ ሊንክ ብቻ ያመልክቱ።\n✅ Liinkii sirrii armaan olii qofa fayyadamuun iyyadhaa.\n\n📢 **Follow for daily jobs · ዕለታዊ ስራዎች · Hojii guyyaa guyyaan**\n🌐 [Website](https://daniel-temesgen.netlify.app/) • ✈️ [Telegram](https://t.me/newVacancyPromoter)\n💼 [LinkedIn](https://www.linkedin.com/in/dani3430) • ▶️ [YouTube](https://youtube.com/@danieltemesgen581) • 👥 [Facebook](https://facebook.com/daniel.temesgen.102)",
   "social_links": [
-    {
-      "label": "💼 LinkedIn",
-      "url": "https://www.linkedin.com/in/dani3430"
-    },
-    {
-      "label": "▶️ YouTube",
-      "url": "https://youtube.com/@danieltemesgen581"
-    },
-    {
-      "label": "👥 Facebook",
-      "url": "https://facebook.com/daniel.temesgen.102"
-    },
-    {
-      "label": "✈️ Telegram",
-      "url": "https://t.me/newVacancyPromoter"
-    },
-    {
-      "label": "?? Website",
-      "url": "https://daniel-temesgen.netlify.app/"
-    }
+    {"label": "🌐 Website", "url": "https://daniel-temesgen.netlify.app/"},
+    {"label": "✈️ Telegram", "url": "https://t.me/newVacancyPromoter"},
+    {"label": "💼 LinkedIn", "url": "https://www.linkedin.com/in/dani3430"},
+    {"label": "▶️ YouTube", "url": "https://youtube.com/@danieltemesgen581"},
+    {"label": "👥 Facebook", "url": "https://facebook.com/daniel.temesgen.102"}
   ]
 }
