@@ -1,9 +1,14 @@
 {
- "hashes": [],
+ "hashes": [
+  "95940e26bd0603fad68edc81204883f76822f206",
+  "4d07f5a538edb2f0a123c1ed73c5ac74f7d9311f",
+  "fafdc9b8bc975891b7e19e981ce42b46e8e8dbb7",
+  "d3658222ce6a8be10d61586eae42dac7478b1eca"
+ ],
  "last_ids": {
   "arifisira": 3112,
-  "effoyjobs": 14305,
-  "elelanafjobs": 18599,
+  "effoyjobs": 14308,
+  "elelanafjobs": 18602,
   "freelance_ethio": 105151,
   "gadaanetwork": 23138,
   "harmeejobs": 11269,
