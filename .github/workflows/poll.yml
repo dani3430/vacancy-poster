@@ -2,7 +2,7 @@ name: Relay vacancies
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes (GitHub may delay runs a few minutes)
+    - cron: "3,18,33,48 * * * *"   # every 10 minutes (GitHub may delay runs a few minutes)
   workflow_dispatch: {}        # lets you press "Run workflow" manually
 
 permissions:
