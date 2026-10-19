@@ -160,15 +160,18 @@
   "6d71d557b2d7a0432901844a435e124e88a384d6",
   "46f0f52cce2fab666384535c2c083828e5131f85",
   "52a85dd715235d4757ceca29f6806a6fabe9a81f",
-  "9d881383e1d6a475dcd0e76c6b973c05f2198021"
+  "9d881383e1d6a475dcd0e76c6b973c05f2198021",
+  "fdb26230aa0bb471cd96696da4a06ac252733a36",
+  "67e1ebf0b5527006c87526530435d80bc74dcefd",
+  "311273c89fb43ef9989e28d9d1ae9bfc564fdc3e"
  ],
  "last_ids": {
-  "arifisira": 3131,
+  "arifisira": 3132,
   "effoyjobs": 14349,
   "elelanafjobs": 18684,
   "freelance_ethio": 105354,
-  "gadaanetwork": 23212,
+  "gadaanetwork": 23215,
   "harmeejobs": 11274,
-  "hawassajobs": 13536
+  "hawassajobs": 13537
  }
 }
