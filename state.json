@@ -1,8 +1,5 @@
 {
  "hashes": [
-  "0493f7d4d0faebbf5afd05526edb97350ea34ef0",
-  "e04d67dc472a54da3e84ab81c18e717977e44e5e",
-  "92d9332443df13edf9d256a2a4fcb62c4323f0ab",
   "d5d4369cf2824cb479b83a3ba79e68b1efe272ba",
   "1d47bb9201b893f25955190ea5f6fce0ab6c5654",
   "a31eb7f814a05527ccb5a8391c84432f4a0bd1cc",
@@ -999,15 +996,18 @@
   "d06164dfcfd19362818b4ef7e30a4cbdbe857733",
   "14b019acf4a8bbcee30208e31ce412bc7927eaa6",
   "6f4fcb2e52ccafe8af6cc808ffec4948c325ba17",
-  "6c9968c65d81d01b5ba2b713959f7addeac2e6bc"
+  "6c9968c65d81d01b5ba2b713959f7addeac2e6bc",
+  "5c083407c2c053e87c942ed3268711fd8c45af51",
+  "f5f131101f4e29895cfa24b8b43091a5138c8b06",
+  "ad74f33596e42f69e8547edf8f321e59cbe16fba"
  ],
  "last_ids": {
-  "arifisira": 3457,
+  "arifisira": 3458,
   "effoyjobs": 14648,
-  "elelanafjobs": 18969,
-  "freelance_ethio": 106955,
-  "gadaanetwork": 23594,
+  "elelanafjobs": 18970,
+  "freelance_ethio": 106957,
+  "gadaanetwork": 23595,
   "harmeejobs": 11350,
-  "hawassajobs": 13864
+  "hawassajobs": 13865
  }
 }
