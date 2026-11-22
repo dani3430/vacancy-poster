@@ -1,14 +1,5 @@
 {
  "hashes": [
-  "e7276dfe65bc6f79bb8817bc2a801e837a5b74f0",
-  "c6002800c3f97251f55e82dd6c764c9192f8c5bd",
-  "464c10c64641224fdbb25b5ce7b93791ae63ffed",
-  "fb925d7f77d99defd6bf97c49c20789bf648d719",
-  "cfb7bc5d9238d9ad0210f3ccf7a420cb6eb593a2",
-  "f277023e3c8aaff4545e211830232516adc40799",
-  "483f82e655e499999e29ee443fc68c298562754d",
-  "73dfdca40e6e22531d32480be612946ecdbdcab7",
-  "73acd75ff3ca7253f07736ebcd4c14eb78bdb248",
   "e2646a93ef5dc0b1c5ca2a90c9e54ddb11fbf1f3",
   "8906844c515936c6d174c9ba8078c396184a0bf1",
   "a0f2808397cdaf14dd81d928948cb1f128cd1aeb",
@@ -999,15 +990,24 @@
   "43e12082fd802379f5224d31fe1fd6a2a36bf7be",
   "42517abe3a6cd02546a1aea457831778d54906ee",
   "0b0739641c43b7b0dcc437f98d9955a2fef30cc9",
-  "de0936a1c2365cda48d56764905fc7cecb347996"
+  "de0936a1c2365cda48d56764905fc7cecb347996",
+  "54eaff4a34ba4ffd9e3abf47d373ea8a4ab08c17",
+  "9119447a808e762b8d894eb5bf78fac04ddd0c1c",
+  "d0bbba87acd4d08d8c492d218d723feb1abc56a9",
+  "63ae14c56091fa1278dcef9baf8f5a4c6d87412b",
+  "4a04a06b93cbf811f1e5a7510895934a9f902189",
+  "8d18951a752b65fc57302fa77995ce81e9a40aac",
+  "6d465b506d3ea3597d60735a74a3c124bbb638ef",
+  "84b3f8803b3d09e05e2f752970583f7f6b344be0",
+  "7bdcbb9e7f1e3ca275530016908f841751a6dd7a"
  ],
  "last_ids": {
-  "arifisira": 3554,
-  "effoyjobs": 14764,
+  "arifisira": 3555,
+  "effoyjobs": 14765,
   "elelanafjobs": 19012,
-  "freelance_ethio": 107552,
-  "gadaanetwork": 23756,
+  "freelance_ethio": 107556,
+  "gadaanetwork": 23762,
   "harmeejobs": 11363,
-  "hawassajobs": 13963
+  "hawassajobs": 13964
  }
 }
